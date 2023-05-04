@@ -2,6 +2,8 @@
 
 This is a personal portfolio website built using React. It includes an about section, a portfolio section to showcase projects, and a contact section, and a resume and proficiencies section. It is deployed on [Github Pages](https://alflint.github.io/react-portfolio/)
 
+![portfolio](/assets/screenshot.png)
+
 <hr>
 
 ## Table of Contents
