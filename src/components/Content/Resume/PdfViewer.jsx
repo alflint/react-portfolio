@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import { Document, Page } from 'react-pdf/dist/esm/entry.webpack5';
+import { Document, Page, pdfjs } from 'react-pdf/dist/esm/entry.webpack5';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import { BsDownload } from 'react-icons/bs'
 
-
+const url = `//cdn.jsdelivr.net/npm/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`
+pdfjs.GlobalWorkerOptions.workerSrc = url
 
 function PdfViewer(props) {
   const [numPages, setNumPages] = useState(null);
