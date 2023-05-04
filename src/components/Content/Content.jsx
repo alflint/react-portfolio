@@ -10,7 +10,6 @@ function Content() {
     return (
         <div>
             <Jumbotron />
-            
             <div className="anchor" id="about"></div>
             <section className="py-5 my-5">
                 <About />

@@ -20,8 +20,8 @@ function Resume() {
 
             <h2 className="text-center text-muted">Technical Profecciencies</h2>
             <Row xs={1} md={3} className="g-4">
-                {proficiencies.map((proficiency) => (
-                    <Col>
+                {proficiencies.map((proficiency, idx) => (
+                    <Col key={idx}>
 
                         <Card>
                             <Card.Body className="text-center pt-1 pb-0">
